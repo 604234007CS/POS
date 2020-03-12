@@ -11,7 +11,7 @@ $product = $statement->fetchAll(PDO::FETCH_OBJ);
 <?php require '../header.php'; ?>
 <?php require 'navbar.php'; ?>
 
-<div class="container">
+<div class="container-fluid">
   <div class="card mt-5">
     <div class="card-header">
       <h2>ข้อมูลสินค้า</h2>

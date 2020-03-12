@@ -28,7 +28,7 @@ $customer = $statement->fetchAll(PDO::FETCH_OBJ);
         <?php foreach($customer as $customers): ?>
           <tr>
             
-             <!-- สร้างใชื่อห้เหมือนในฐานข้อมูล -->
+             <!-- สร้างชื่อให้เหมือนในฐานข้อมูล -->
             <td><?= $customers->customer_id; ?></td> 
             <td><?= $customers->customer_name; ?></td> 
             <td><?= $customers->customer_sname; ?></td> 
